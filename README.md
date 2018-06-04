@@ -1,7 +1,7 @@
 # Ssd1306 I2C library for Attiny
 
 
-A modified version of [Defragster's AVR port](https://github.com/Defragster/ssd1306xled) that uses TinywireM for i2c transmission. The original version was incompatable with other devices that used TinywireM, this provides a nice alternative which is still more light weight that other libraries.
+A modified version of [Defragster's AVR port](https://github.com/Defragster/ssd1306xled) that uses TinywireM for i2c transmission. The original version was incompatable with other devices that used TinywireM, this provides a nice alternative to other libraries which I found to take up too much space on the ATtiny85.
 
 Tested using Attiny85. [TinywireM is needed.](https://github.com/adafruit/TinyWireM)
 
